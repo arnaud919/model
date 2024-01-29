@@ -1,0 +1,120 @@
+body{
+    color:#626264;
+}
+
+p, a, input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3, .titre{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg_orange{
+    background-color: #F79D85;
+}
+
+.texte_orange_clair{
+    color: #F17D58;
+}
+
+.bg_rose{
+    background-color: #FEF0EF;
+}
+
+.bordure_rose{
+    border: #FEF0EF solid 1px;
+}
+
+.bg_blanc{
+    background-color: white;
+}
+
+.texte_blanc{
+    color:white;
+}
+
+.petit_texte{
+    font-size: 10px;
+}
+
+.container_presentation{
+    background-image:url("../images/01PIC.jpg");
+    background-size: cover;
+}
+
+.texte-bold{
+    font-weight: bold;
+}
+
+.bouton{
+    background-color:#ACD579 ;
+    color:white;
+    border-radius: 20px;
+    border:none;
+    padding:10px 20px;
+    font-weight: bold;
+}
+
+.service:hover{
+    color:white;
+    background-color: #F17D58
+}
+
+.service:hover>*>*{
+    color: white;
+}
+
+.service:hover>div>div>svg{
+    fill:white
+}
+
+.container_philosophie{
+    background-image: url("../images/philo.jpg");
+    background-size: cover;
+}
+
+.trait{
+    color:black;
+    font-size: 30px;
+}
+
+.espace_gallerie{
+    height:170px;
+}
+
+.espace_gallerie2{
+    height: 340px;
+}
+
+.espace_image_actus{
+    width:100%;
+    max-width:100%;
+}
+
+.lien_actus{
+    text-align: end;
+}
+
+/* Grid */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.parent>*{
+    border: solid black 1px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 4 / 3; }
+.div4 { grid-area: 1 / 3 / 2 / 4; }
+.div5 { grid-area: 2 / 3 / 3 / 4; }
+.div6 { grid-area: 3 / 3 / 4 / 4; }
+.div7 { grid-area: 1 / 4 / 3 / 5; }
+.div8 { grid-area: 3 / 4 / 4 / 5; }
